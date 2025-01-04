@@ -1,8 +1,5 @@
 import React from "react";
 import {createRoot} from "react-dom/client";
-
-const App = () => {
-    return <p>Hello Vite + React</p>
-}
+import App from "./components/App/App";
 
 createRoot(document.getElementById("root")!).render(<App/>);
